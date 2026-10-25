@@ -41,14 +41,15 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Full Stack Developer and passionate Tech Enthusiast with hands-on expertise in building scalable web applications and modern software solutions.
-            Skilled in both front-end and back-end technologies, with a strong foundation in problem-solving and analytical thinking. 
-            Alongside technical proficiency, bring 2 years of experience as a Mathematics Educator and Mentor, fostering critical reasoning and guiding learners toward academic success. 
-            Adept at combining technical innovation with teaching and mentoring skills to deliver impactful solutions and inspire growth in collaborative environments.
+            Full-Stack Software Developer with experience in building scalable web applications, modern 3D animated frontends, and
+            production-ready backend systems. Skilled in JavaScript, React.js, Next.js, Tailwind CSS, Node.js, and Express.js for developing
+            responsive UI and RESTful APIs. Passionate Mathematics Teacher and Strategic Defence Mentor specializing in conceptual
+            clarity, competitive exam readiness, and student mentorship. Proven ability to mentor candidates through both academic
+            preparation and physical/mental discipline required for selection in the Indian Defence Forces.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1JGJ34F9e-EQbkx0y2UMUYj1WEBOfFSU0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1KC43JWuiwHnJI2xQs8KePzLeWlHeytNh/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -74,7 +75,7 @@ const About = () => {
           >
             <img
               src={profileImage}
-              alt="Tarun Kaushik"
+              alt="Rishi Rajput"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>

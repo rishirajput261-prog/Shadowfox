@@ -32,12 +32,16 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import SAPMMLogo from './assets/tech_logo/SAP_MM.Jpeg';
+import SAPSDLogo from './assets/tech_logo/SAP_SD.webp';
+import SAPFICOLogo from './assets/tech_logo/SAP_FICO.webp';
 
 // Experience Section Logo's
-import Shadowfoxlogo from './assets/company_logo/Shadowfox_logo.jpg';
+import Saillogo from './assets/company_logo/Sail_logo.jpg';
+import nexlevrlogo from './assets/company_logo/nexlevr_logo.jpg';
 import IDAlogo from './assets/company_logo/IDA_logo.jpg';
 import edunetlogo from './assets/company_logo/edunet_logo.png';
-import medtoureasy from './assets/company_logo/medtoureasyy_logo.jpg';
+import Shadowfoxlogo from './assets/company_logo/Shadowfox_logo.jpg';
 
 // Education Section Logo's
 import hyulogo from './assets/education_logo/hyu_logo.png';
@@ -108,15 +112,45 @@ export const SkillsInfo = [
       { name: 'Figma', logo: figmaLogo },
     ],
   },
+  {
+    title: 'ERP Softwares',
+    skills: [
+      { name: 'SAP_MM', logo: SAPMMLogo },
+      { name: 'SAP_SD', logo: SAPSDLogo },
+      { name: 'SAP_FICO', logo: SAPFICOLogo },
+    ],
+  },
+
+
 ];
 
   export const experiences = [
+
     {
       id: 0,
-      img: Shadowfoxlogo,
-      role: "Web Development Intern",
-      company: "Shadowfox",
-      date: "May 2026 - Present",
+      img: Saillogo,
+      role: "Graduate Apprentice Trainee",
+      company: "Steel Authority of India Limited (SAIL)",
+      date: "September 2026 - Present",
+      desc: "As a Graduate Apprentice Trainee at Steel Authority of India Limited (SAIL), I am actively involved in gaining practical experience and contributing to various projects within the organization. My responsibilities include assisting in the design, development, and implementation of engineering solutions, collaborating with cross-functional teams, and applying theoretical knowledge to real-world industrial challenges. This apprenticeship provides me with valuable insights into the steel manufacturing process, quality control, and operational efficiency, enhancing my skills and preparing me for a successful career in the industry.",
+      skills: [
+        "SAP[S4HANA Module - MM, PP, PM & QM]",
+        "Supply Chain Management",
+        "Industrial Engineering",
+        "System and Process Optimization",
+        "B2B Operations & Management",
+        "Technical Test Certification[TTC]",
+        "Stake holder Management",
+        "Client Relationship Management",
+        "Stock & Inventory Management",
+      ],
+    },
+{
+      id: 1,
+      img: nexlevrlogo,
+      role: "MERN Stack Developer Intern",
+      company: "Nexlevr",
+      date: "May 2026 - September 2026",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
@@ -132,11 +166,11 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 1,
+      id: 2,
       img: IDAlogo,
       role: "Mathematics Educator",
       company: "Ideal Defence Academy",
-      date: "April 2026 - Present",
+      date: "April 2026 - September 2026",
       desc: "As a Mathematics and Computer Science Educator at Ideal Defence Academy, I am responsible for teaching and mentoring students in various subjects, including mathematics, computer science, and programming. I design and deliver engaging lessons, create educational materials, and provide personalized support to help students excel in their studies and prepare for competitive exams.",
       skills: [
         "Special Education",
@@ -149,11 +183,11 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 2,
+      id: 3,
       img: edunetlogo,
       role: "Frontend Intern",
       company: "Edunet Foundation",
-      date: "July 2025 - October 2025",
+      date: "November 2025 - December 2025",
       desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
       skills: [
         "HTML",
@@ -165,18 +199,33 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 3,
-      img: medtoureasy,
-      role: "Data Analytics Trainee",
-      company: "MedToureasy",
-      date: "November 2025 - December 2025",
-      desc: "As a Data Analytics Trainee at MedToureasy, I was responsible for analyzing and interpreting complex datasets to provide actionable insights that informed business decisions. I utilized tools such as Excel, SQL, and Python to clean, visualize, and analyze data related to customer behavior, market trends, and operational performance. My work contributed to optimizing marketing strategies and improving overall business efficiency.",
+      id: 4,
+      img: Shadowfoxlogo,
+      role: "Full Stack Developer Intern",
+      company: "Shadowfox",
+      date: "July 2025 - October 2025",
+      desc: "As a Full Stack Developer Intern at Shadowfox, I was responsible for developing and maintaining web applications using modern technologies. I collaborated with the development team to design, implement, and test scalable solutions that met business requirements. My work contributed to improving the overall quality and performance of the applications.",
       skills: [
-        "Data Analysis",
-        "SQL",
-        "Python",
-        "Excel",
-        "Lead Generation",
+        "JavaScript",
+        "Node.js",
+        "React",
+        "MongoDB",
+        "Express",
+      ],
+    },
+    {
+      id: 5,
+      img: Saillogo,
+      role: "Summer Research Intern",
+      company: "Steel Authority of India Limited (SAIL)",
+      date: "May 2024 - June 2024",
+      desc: "​Designed an end-to-end MIS solution for automating material gatepass tracking and inventory dispatch management at Bhilai Steel Plant. Modeled data structures and system architecture to transition legacy paper-based gate logging into a digitized, searchable reporting system. Mapped security clearance logic, role-based access control, and dispatch verification workflows to improve plant entry/exit efficiency. ​Submitted an exhaustive technical report and received an Excellent performance evaluation from SAIL HRD.",
+      skills: [
+        "Management Information System (MIS)",
+        "Data Base Management System (DBMS)",
+        "Process Optimization",
+        "Security Clearance Management",
+        "Software Development Life Cycle (SDLC)",
       ],
     }
   ];
