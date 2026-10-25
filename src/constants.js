@@ -32,7 +32,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
-import SAPMMLogo from './assets/tech_logo/SAP_MM.Jpeg';
+import SAPMMLogo from './assets/tech_logo/SAP_MM.jpeg';
 import SAPSDLogo from './assets/tech_logo/SAP_SD.webp';
 import SAPFICOLogo from './assets/tech_logo/SAP_FICO.webp';
 
