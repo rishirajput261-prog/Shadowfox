@@ -72,4 +72,4 @@ For any questions or concerns, please contact us at rishirajput261@gmail.com.
 
 ## 💖 Thanks Message
 We would like to thank all the contributors and users of this project. This project is a result of the hard work and dedication of many individuals.
-This project is live at 
+This project is live at https://shadowfox-gv7p.vercel.app/
